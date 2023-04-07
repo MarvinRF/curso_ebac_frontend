@@ -1,7 +1,3 @@
-
-
-const mensagemSucesso = `a`
-
 formulario.addEventListener("submit", (event) => {
     event.preventDefault();
 
@@ -10,10 +6,10 @@ formulario.addEventListener("submit", (event) => {
     let message = document.querySelector('p#message')
     
     if (fristNumber < secondNumber) {
-        message.innerHTML = `O formulario está correto`
+        message.innerHTML = `O formulario está <strong>correto</strong>!`
 
     }
     else {
-        message.innerHTML = `Formulário inválido. O número B deve ser maior que o número A.`
+        message.innerHTML = `<strong> Formulário inválido.</strong><br>O número B deve ser maior que o número A.`
     }
 });

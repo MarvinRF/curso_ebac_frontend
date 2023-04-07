@@ -5,14 +5,29 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.container {
-    margin: 50px auto;
-    max-width: 640px;
-    width: 100%;
-    text-align: center;
+body {
+    min-height: 300px;
+    background-image: url(imagens/Neve_montanhas.jpg);
+    background-size: cover;
 }
 
-h1 {
+.container {
+    background-image: url(imagens/a1982a6d9403b78303ee5fb3b15123e2.jpg);
+    background-size: cover;
+    margin: 250px auto;
+    width: 400px;
+    height: 480px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+img {
+    padding: 16px;
+    text-align: center;
+    height: 100px;
+}
+
+h3 {
     padding: 16px;
     text-align: center;
 }
@@ -26,14 +41,16 @@ form {
 input,
 button {
     padding: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     display: flex;
     text-align: center;
+    border-radius: 15px;
 }
-
-button{
-    background-color: #35d44aab;
+label{
     font-weight: bold;
+}
+button {
+    background-color: #05a5ca;
     text-transform: uppercase;
     cursor: pointer;
     text-align: center;
@@ -41,6 +58,26 @@ button{
     border-radius: 30px;
     justify-content: center;
 }
+
 button:hover {
-    background-color: #35d44a;
+    background-color: #0f7d9e;
+}
+
+#resposta {
+    text-align: center;
+    padding: 2px;
+    margin-top: 0px;
+}
+
+#resposta p {
+    font-size: large;
+    padding: 20px;
+    margin: 0;
+}
+
+#footer {
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
 }
