@@ -19,6 +19,7 @@ body {
     height: 480px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 6px 6px 10px black;
 }
 
 img {
