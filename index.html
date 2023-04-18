@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario jquery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="secao">
+        <div class="container">
+            <img src="imagens/brazil_logo_.png" alt="logo ebac">
+            <h3>Cadastro de Alunos EBAC</h3>
+            <hr>
+            <form action="">
+                <div class="form-campo">
+                    <label for="nome">Nome Completo:
+                        <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                    </label>
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone:
+                        <input type="tel" id="telefone" name="telefone" placeholder="Telefone" required>
+                    </label>
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail:
+                        <input type="text" id="email" name="email" placeholder="E-mail" required>
+                    </label>
+                </div>
+                <div class="form-campo">
+                    <label for="cpf">CPF:
+                        <input type="tel" id="cpf" name="cpf" placeholder="CPF" required>
+                    </label>
+                </div>
+                <div class="form-campo">
+                    <label for="cidade">Cidade:
+                        <input type="text" id="cidade" name="cidade" placeholder="Cidade" required>
+                    </label>
+                </div>
+                <div class="form-campo">
+                    <label for="estado">Estado:
+                        <input type="text" id="estado" name="estado" placeholder="Estado" required>
+                    </label>
+                </div>
+                <div class="form-campo">
+                    <label for="cep">CEP:
+                        <input type="tel" id="cep" name="cep" placeholder="CEP" required>
+                    </label>
+                </div>
+                <div id="button">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_PT.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
