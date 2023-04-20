@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
-    $('#telefone').mask('(00) 00000-0000');
-    $('#cpf').mask('000.000.000-00');
-    $('#cep').mask('00000-000');
+    $('#telefone').mask('(99) 99999-9999');
+    $('#cpf').mask('999.999.999-99');
+    $('#cep').mask('99999-999');
 
     $('form').validate({
         rules: {
