@@ -1,0 +1,21 @@
+@use 'variaveis';
+
+body {
+    section {
+
+        div {
+            background-color: variaveis.$corPrincipal;
+            &:hover{
+                background-color: darken(variaveis.$corPrincipal , 20%);
+            }
+
+            h1 {
+                color: rgb(0, 0, 0);
+            }
+
+            p {
+                color: rgb(110, 0, 0);
+            }
+        }
+    }
+}
