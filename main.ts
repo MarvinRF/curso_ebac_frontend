@@ -1,4 +1,4 @@
-const multiplicar = (val1: number, val2: number) => { return val1 * val2; }
+const multiplicar = (val1: number, val2: number): number => { return val1 * val2; }
 console.log(multiplicar(2, 2));
 
 class Pessoa {
@@ -7,7 +7,7 @@ class Pessoa {
     this.nome = nome;
   }
 
-  saudacao() {
+  saudacao():string {
     return `Olá meu nome é ${this.nome}`;
   }
 }
